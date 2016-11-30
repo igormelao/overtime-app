@@ -4,8 +4,8 @@ Key requirement: Company needs documentation that salaried employees did or did 
 
 ## Models
 - Post -> date:date rationale:text
-- User -> Devise
-- ADminUser -> STI
+x User -> Devise
+x ADminUser -> STI
 
 ## Features:
 - Approval Workflow
@@ -16,3 +16,6 @@ Key requirement: Company needs documentation that salaried employees did or did 
 
 ## UI:
 - Bootstrap -> formatting
+
+## Refactor TODOS:
+- Refactor
