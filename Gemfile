@@ -14,6 +14,9 @@ gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem "gritter", "1.2.0"
 gem 'administrate', '~> 0.3.0'
 gem 'bourbon'
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'pundit', '~> 1.1'
+gem 'twilio-ruby', '~> 4.11', '>= 4.11.1'
 
 group :development, :test do
   gem 'byebug', '~> 9.0', '>= 9.0.6'
@@ -29,6 +32,3 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
-
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-gem 'pundit', '~> 1.1'
