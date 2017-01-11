@@ -1,7 +1,7 @@
 FactoryGirl.define do
 
   sequence :email do |n|
-    "test#{n}@example.com"
+    "asdf#{n}@example.com"
   end
   factory :user do
     first_name "Jon"
