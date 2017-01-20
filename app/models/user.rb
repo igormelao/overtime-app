@@ -15,6 +15,7 @@ class User < ApplicationRecord
   
   validates :phone, length: { is: 10 }
 
+  scope :employess, -> { where(type: nil) }
 
   def full_name
     last_name.upcase + ", " + first_name.upcase
