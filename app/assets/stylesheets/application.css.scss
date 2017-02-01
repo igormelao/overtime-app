@@ -5,7 +5,13 @@
 @import "bourbon";
 @import "admin_homepage";
 @import "employee_homepage";
+
 .custom-nav
 {
   margin-top: 15px;
+}
+
+.btn-employee-home
+{
+  white-space:normal !important;
 }
